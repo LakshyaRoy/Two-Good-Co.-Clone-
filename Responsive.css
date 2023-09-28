@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px) {
+  #page2 {
+    min-height: 75vh;
+  }
+  #page3 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .page3-text1 {
+    letter-spacing: 0px;
+    width: 100%;
+    font-size: 7.5vw;
+    line-height: 6vw;
+  }
+  .page3-text2 {
+    letter-spacing: 0px;
+    width: 100%;
+    gap: 10px;
+    font-size: 2.5vw;
+  }
+  .line {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #nav {
+    padding: 15px;
+  }
+  #links {
+    display: none;
+  }
+
+  #nav-part1 {
+    height: 62px;
+  }
+  #nav-part1 > svg {
+    height: 62px;
+    width: 80px;
+  }
+  #nav > #nav-part2 > #icons > i {
+    font-size: 18px;
+    margin: 0;
+  }
+  #icons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  #page1 {
+    width: 100%;
+    min-height: 70vh;
+    padding: 0 3vw;
+    padding-top: 25vh;
+  }
+
+  #page1 > h1 {
+    font-size: 15.5vw;
+    letter-spacing: -4px;
+  }
+  #video-container {
+    height: 25vh;
+    margin-top: 3vw;
+  }
+  #video-container > #play {
+    opacity: 1;
+    scale: 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+  }
+  #page2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw 3vw;
+  }
+  #page2 > .elem {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 3vw;
+  }
+
+  .child {
+    width: 88vw;
+    padding: 15vw;
+  }
+}
