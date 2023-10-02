@@ -21,6 +21,18 @@
   .line {
     font-size: 2.5vw;
   }
+  .page5-text {
+    font-size: 3rem;
+
+    line-height: 3rem;
+  }
+  #page6 {
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+  }
+  .page6-img-2 {
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -88,5 +100,53 @@
   .child {
     width: 88vw;
     padding: 15vw;
+  }
+  .page5-text {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  #page7 > div > img {
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .page5-text2 {
+    font-size: 1rem !important;
+
+    line-height: 1rem;
+  }
+
+  .page6-img-2 > img {
+    width: 18rem;
+  }
+  .page6-img-1 > img {
+    width: 18rem;
+  }
+
+  #page7 > div > img {
+    width: 5rem;
+  }
+  #page7 {
+    gap: 1rem;
+  }
+  .page6-img-1,
+  .page6-img-2,
+  .page6-text {
+    width: auto !important;
+  }
+}
+@media screen and (max-width: 321px) {
+  .page6-img-2 > img {
+    width: 15rem;
+  }
+  .page6-img-1 > img {
+    width: 15rem;
+  }
+  .page3-text2 {
+    font-size: 4.5vw;
+  }
+  .line {
+    font-size: 3.5vw;
   }
 }

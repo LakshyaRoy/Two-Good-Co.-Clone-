@@ -305,3 +305,133 @@ body {
   width: 90%;
   z-index: 2;
 }
+
+/* PAGE 5 */
+.border {
+  border-bottom: 2px solid #000;
+  font-size: 0.9rem;
+  font-family: "Futura";
+  margin: 1rem 0.5rem;
+}
+
+.page5-text {
+  font-size: 5rem;
+  text-align: center;
+  width: 80%;
+  margin: 2rem auto;
+  font-family: "Futura";
+  font-weight: 800;
+  line-height: 5rem;
+  letter-spacing: -2px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.page5-text2 {
+  font-size: 1.5rem !important;
+  letter-spacing: 0px;
+  width: 50%;
+  line-height: 2rem;
+}
+.page5-Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.8rem;
+  font-family: "Futura";
+  line-height: 2rem;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #f7f7f7;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  transition: ease-in-out all 0.3s;
+}
+.page5-Button:hover {
+  background-color: #f7f7f7;
+  color: #000;
+}
+/* page6 */
+
+#page6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+  gap: 2rem;
+  border-bottom: 2px solid #000;
+}
+
+.page6-Heading {
+  font-family: "Futura";
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  letter-spacing: -1px;
+}
+
+.page6-text {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  word-wrap: break-word;
+}
+.page6-img-1 {
+  width: 33%;
+  width: 30rem;
+  overflow: hidden;
+}
+.page6-img-1 > img {
+  width: 27rem;
+  object-fit: cover;
+  scale: 1.1;
+}
+.page6-img-2 > img {
+  width: 27rem;
+  object-fit: cover;
+  scale: 1.1;
+}
+.page6-img-2 {
+  width: 33%;
+  overflow: hidden;
+}
+
+/* page7 */
+#page7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  width: 100%;
+  gap: 2rem;
+  border-bottom: 2px solid #000;
+}
+
+#page7 > div > p {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  color: #3f3f3f;
+}
+
+#page7 > div > ul {
+  list-style: none;
+  display: flex;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  font-family: "Futura";
+  flex-direction: column;
+}
+
+#page7 > div > img {
+  width: 20rem;
+}
